@@ -1,0 +1,159 @@
+/* Pardo Plastering Inc - Estilo Principal */
+
+/******** Globales ********/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Noto serif , serif'; */
+    /* font-style: italic; */
+
+}
+body{
+    padding-top: 70px;
+    padding-bottom: 400px;
+    background-color: rgb(103, 252, 205);
+}
+@media only screen and (max-width: 800px){
+    body{
+        padding-bottom: 200px;
+    }
+    
+}
+
+
+:root {
+    --purple-dark: #170312;
+    --purple-medium: #33032d;
+    --purple-light: #531253;
+    --gray-light: #eaeaea;
+    --white: #f4fffd;
+
+}
+
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: 700;
+    color: #7c407c;
+  
+}
+
+.titulo-de-pagina{
+    text-align: center;
+    /* font-size: 100px;
+    /* font-weight: 400; */
+    font-style: italic;
+    justify-content: center;
+    /* display: flex;  */
+    /* align-items: center; */
+  }
+.titulo{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: italic;
+    justify-content: center;
+    /* display: flex;  */
+}
+.texto-naranja {
+  font-weight: 700;
+  color: orange;
+}
+.texto-blanco {
+  font-weight: 300;
+  color: #fff;
+}
+.texto-gris {
+  font-weight: 700;
+  color: #531253;
+}
+.texto-purple-dark{
+    font-weight: 700;
+    color: #170312;
+}
+
+
+.errores{
+    padding: 10 30px;
+}
+
+/******** footer ********/
+footer{
+    color: #AAA;
+    padding: 10px 30px;
+    text-align: center;
+}
+footer a{
+    color: #DDD;
+    font-weight: bold;
+    text-align: center;
+}
+footer a:focus,
+footer a:hover{
+    color: #DDD;
+}
+    /* nosotro */
+/* .nosotros {
+    margin-bottom: 60px;
+} */
+.subtitulo {
+    text-transform: uppercase;
+    color: var(--purple-dark);
+    font-family: 'Norto Serif', serif;
+    font-weight: 700;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+.subtitulo span {
+    background-color: var(--gray-light);
+    padding: 0 30px;
+    z-index: 99;
+    position: relative;
+}
+.subtitulo::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background: var(--purple-dark);
+    position: relative;
+    top: -46px;
+    z-index: 1;
+}
+
+.email{
+    color: red;
+    
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px 30px;
+    text-align: center;
+    /* justify-content: center;
+    display: flex; */
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background:#ff8000
+    }
+
+}
+/* @media only screen and (min-width: 768px){ */
+    /* footer{
+        text-align: left;
+    } */
+/* } */
+/******** Registro ********/
+/* #pagina-registro form{
+   border: blue thin solid;
+} */
+
+
+   
